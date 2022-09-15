@@ -1,0 +1,89 @@
+html {
+    font-family: Roboto, sans-serif;
+    --primary-color: #064fae;
+    --secondary-color: #272525;
+    --bg-color: #ffffff;
+  }
+  
+
+  
+ body {
+      background-image: url(/photo/fon2.png);
+      background-repeat: no-repeat;
+      background-size: 110%;
+         }
+
+         
+  
+
+  
+  h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.25em;
+  }
+  
+  h2 {
+    color: var(--secondary-color);
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  
+  h3 {
+    color: var(--primary-color);
+  }
+  
+  a {
+    color: var(--primary-color);
+  }
+  
+  section {
+    margin-bottom: 3em;
+    position: relative;
+  }
+  
+  .cv {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .contacts {
+    margin-bottom: 2em;
+    position: absolute;
+    top: 177px;
+    left: 200px;
+  }
+  
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .contact__type {
+    min-width: 90px;
+    
+  }
+  
+  .experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2em;
+  }
+  
+  .experience__date {
+    min-width: 185px;
+    margin-bottom: 1em;
+  }
+  
+  .experience__name {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 575px) {
+    .experience {
+      display: block;
+    }
+  }
+  
